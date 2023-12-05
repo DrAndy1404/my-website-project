@@ -2,8 +2,13 @@
 header {
     background-color: #7da8da; /* Sets the background color of the header to a light blue shade. */
     color: #fff; /* Defines the text color inside the header as white. */
-    padding: 50px; /* Adds 50 pixels of padding around the content inside the header. */
+    padding: 20px; /* Adds 50 pixels of padding around the content inside the header. */
     text-align: center; /* Centers the text content horizontally within the header. */
+    margin: 0px;
+}
+
+header h1 {
+    font-size: 3.5em;
 }
 
 /* Body Styling */
@@ -16,7 +21,7 @@ body {
 
 /* Section Styling */
 section {
-    margin: 100px; /* Provides a margin of 100 pixels around each section. */
+    margin: 50px; /* Provides a margin of 100 pixels around each section. */
     padding: 30px; /* Adds a padding of 30 pixels inside each section. */
     background-color: #fff; /* Sets the background color of each section to white. */
     border-radius: 10px; /* Rounds the corners of each section, giving a subtle curved appearance. */
@@ -24,9 +29,16 @@ section {
     color: #1370da; /* Defines the text color inside each section as a dark blue shade. */
 }
 
-/* Heading and Paragraph Styling */
-h3, p {
-    color: #1370da; /* Applies a dark blue color to both the heading (h3) and paragraph (p) elements within each section. */
+/* Heading Styling */
+h1 {
+    color: #1370da; /* Applies a dark blue color to both the heading (h1) and paragraph (p) elements within each section. */
+    font-size:2em;
+}
+
+/*Paragraph Styling */
+p {
+    color: #1370da; /* Applies a dark blue color to both the heading (h1) and paragraph (p) elements within each section. */
+    font-size: large
 }
 
 /* Image Styling */
@@ -37,11 +49,21 @@ img {
     margin-bottom: 15px; /* Adds a margin of 15 pixels below each image. */
 }
 
+figcaption {
+    text-align: left; /* Sets text alignment for table headers and data cells. */
+    color: black;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
 /* Table Styling */
 table {
-    width: 100%; /* Sets the table width to 100% of its container. */
+    width: 30%; /* Sets the table width to 100% of its container. */
+    margin: auto;
     border-collapse: collapse; /* Collapses the borders of the table cells. */
-    margin-top: 15px; /* Adds a margin of 15 pixels above each table. */
+    margin-top: 15px; /* Adds a margin of 15 pixels above each table. */    
 }
 
 th, td {
@@ -62,4 +84,32 @@ footer {
     padding: 10px; /* Adds 10 pixels of padding around the content inside the footer. */
     position: absolute; /* Positions the footer absolutely at the bottom of the viewport. */
     width: 100%; /* Sets the width of the footer to 100% of its container. */
+}
+
+/* Navigation Styling */
+nav {
+    margin-top: 50px; /* Adds a margin of 10 pixels above the navigation bar. */
+}
+
+ul {
+    list-style-type: none; /* Removes default list styling. */
+    padding: 0;
+    display: flex; /* Displays the list items horizontally. */
+    justify-content: space-around; /* Spaces out the list items evenly. */
+    font-size: large
+}
+
+li {
+    display: inline; /* Displays list items inline. */
+}
+
+a {
+    text-decoration: none; /* Removes underline from links. */
+    color: #fff; /* Sets the text color of the links to white. */
+    font-weight: bold; /* Makes the text bold. */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #e0e0e0; /* Changes link color on hover. */
 }
