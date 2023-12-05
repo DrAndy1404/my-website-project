@@ -1,0 +1,65 @@
+/* Header Styling */
+header {
+    background-color: #7da8da; /* Sets the background color of the header to a light blue shade. */
+    color: #fff; /* Defines the text color inside the header as white. */
+    padding: 50px; /* Adds 50 pixels of padding around the content inside the header. */
+    text-align: center; /* Centers the text content horizontally within the header. */
+}
+
+/* Body Styling */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Specifies the font family for the entire body text. */
+    margin: 10px; /* Adds a margin of 10 pixels around the body. */
+    padding: 10px; /* Adds a padding of 10 pixels inside the body. */
+    background-color: #aecef1; /* Sets the background color of the body to a light blue shade. */
+}
+
+/* Section Styling */
+section {
+    margin: 100px; /* Provides a margin of 100 pixels around each section. */
+    padding: 30px; /* Adds a padding of 30 pixels inside each section. */
+    background-color: #fff; /* Sets the background color of each section to white. */
+    border-radius: 10px; /* Rounds the corners of each section, giving a subtle curved appearance. */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Applies a slight shadow to each section for a subtle elevation effect. */
+    color: #1370da; /* Defines the text color inside each section as a dark blue shade. */
+}
+
+/* Heading and Paragraph Styling */
+h3, p {
+    color: #1370da; /* Applies a dark blue color to both the heading (h3) and paragraph (p) elements within each section. */
+}
+
+/* Image Styling */
+img {
+    max-width: 100%; /* Ensures that images do not exceed 100% of their parent container's width. */
+    height: auto; /* Maintains the aspect ratio of images, allowing them to scale proportionally. */
+    border-radius: 5px; /* Rounds the corners of images with a slight curve. */
+    margin-bottom: 15px; /* Adds a margin of 15 pixels below each image. */
+}
+
+/* Table Styling */
+table {
+    width: 100%; /* Sets the table width to 100% of its container. */
+    border-collapse: collapse; /* Collapses the borders of the table cells. */
+    margin-top: 15px; /* Adds a margin of 15 pixels above each table. */
+}
+
+th, td {
+    padding: 10px; /* Defines padding for table headers and data cells. */
+    text-align: left; /* Sets text alignment for table headers and data cells. */
+    border: 1px solid #e0e0e0; /* Adds a border to table headers and data cells. */
+}
+
+caption {
+    font-weight: bold; /* Styles for the table caption, including bold font-weight. */
+    margin-bottom: 10px; /* Adds a margin below the table caption. */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #7da8da; /* The background color of the footer to the same light blue as the header. */
+    text-align: center; /* Centers the text content horizontally within the footer. */
+    padding: 10px; /* Adds 10 pixels of padding around the content inside the footer. */
+    position: absolute; /* Positions the footer absolutely at the bottom of the viewport. */
+    width: 100%; /* Sets the width of the footer to 100% of its container. */
+}
